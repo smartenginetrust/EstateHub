@@ -21,7 +21,7 @@ const NAV_ITEMS = [
   { path: "/leads", label: "Müşteri & Lead", icon: Users },
   { path: "/properties", label: "Portföy", icon: Building2 },
   { path: "/agents", label: "Danışmanlar", icon: UserCircle },
-  { path: "/analytics", label: "Analitik", icon: BarChart3 },
+  { path: "/analytics", label: "Raporlar", icon: BarChart3 },
 ];
 
 export default function Sidebar() {
