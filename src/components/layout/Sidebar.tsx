@@ -42,7 +42,7 @@ export default function Sidebar() {
         </div>
         {!collapsed && (
           <div>
-            <p className="text-white font-bold text-sm leading-none">EstateHub</p>
+            <p className="text-white font-bold text-sm leading-none">Takas Gayrimenkul</p>
             <p className="text-amber-400/70 text-xs mt-0.5">CRM Pro</p>
           </div>
         )}
