@@ -1,4 +1,5 @@
 import type { Branch, Lead, Property, Agent, Activity } from "@/types";
+import saadetAvatar from "@/assets/saadet-takas.png";
 
 export const BRANCHES: Branch[] = [
   { id: "b1", name: "Konyaaltı Şubesi", city: "Antalya", address: "Konyaaltı Cad. No:12, Konyaaltı", phone: "0242 xxx xx xx", managerName: "Ahmet Yıldız", agentCount: 8, color: "#3B82F6" },
@@ -12,7 +13,7 @@ export const AGENTS: Agent[] = [
   { id: "a2", name: "Burak Öztürk", email: "burak@takasgayrimenkul.com", phone: "0533 222 33 44", branchId: "b1", title: "Danışman", avatar: "https://i.pravatar.cc/150?img=3", totalSales: 15, totalRentals: 22, commission: 87000, monthlyTarget: 200000, joinedAt: "2022-07-01", activeLeads: 8, activeListings: 4 },
   { id: "a3", name: "Dila Yılmaz", email: "dila@takasgayrimenkul.com", phone: "0534 333 44 55", branchId: "b2", title: "Kıdemli Danışman", avatar: "https://i.pravatar.cc/150?img=5", totalSales: 34, totalRentals: 8, commission: 198000, monthlyTarget: 350000, joinedAt: "2020-11-20", activeLeads: 15, activeListings: 9 },
   { id: "a4", name: "Tarık Güneş", email: "tarik@takasgayrimenkul.com", phone: "0535 444 55 66", branchId: "b2", title: "Danışman", avatar: "https://i.pravatar.cc/150?img=7", totalSales: 11, totalRentals: 18, commission: 65000, monthlyTarget: 150000, joinedAt: "2023-01-10", activeLeads: 6, activeListings: 3 },
-  { id: "a5", name: "Zeynep Koca", email: "zeynep@takasgayrimenkul.com", phone: "0536 555 66 77", branchId: "b3", title: "Şube Müdürü", avatar: "https://i.pravatar.cc/150?img=9", totalSales: 42, totalRentals: 19, commission: 245000, monthlyTarget: 400000, joinedAt: "2019-06-15", activeLeads: 10, activeListings: 7 },
+  { id: "a5", name: "Saadet Takas", email: "saadet@takasgayrimenkul.com", phone: "0536 555 66 77", branchId: "b3", title: "Şube Müdürü", avatar: saadetAvatar, totalSales: 42, totalRentals: 19, commission: 245000, monthlyTarget: 400000, joinedAt: "2019-06-15", activeLeads: 10, activeListings: 7 },
   { id: "a6", name: "Okan Çelik", email: "okan@takasgayrimenkul.com", phone: "0537 666 77 88", branchId: "b3", title: "Danışman", avatar: "https://i.pravatar.cc/150?img=11", totalSales: 9, totalRentals: 12, commission: 48000, monthlyTarget: 120000, joinedAt: "2023-05-20", activeLeads: 7, activeListings: 3 },
   { id: "a7", name: "İrem Koç", email: "irem@takasgayrimenkul.com", phone: "0538 777 88 99", branchId: "b4", title: "Kıdemli Danışman", avatar: "https://i.pravatar.cc/150?img=13", totalSales: 22, totalRentals: 31, commission: 125000, monthlyTarget: 250000, joinedAt: "2021-09-01", activeLeads: 11, activeListings: 5 },
   { id: "a8", name: "Can Yıldırım", email: "can@takasgayrimenkul.com", phone: "0539 888 99 00", branchId: "b4", title: "Danışman", avatar: "https://i.pravatar.cc/150?img=15", totalSales: 7, totalRentals: 9, commission: 38000, monthlyTarget: 100000, joinedAt: "2024-01-15", activeLeads: 4, activeListings: 2 },
